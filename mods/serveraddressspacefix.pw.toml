@@ -1,0 +1,13 @@
+name = "ServerAddressSpaceFix"
+filename = "ServerAddressSpaceFix-0.1.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/NJGSUuLp/versions/SW63YTVs/ServerAddressSpaceFix-0.1.4.jar"
+hash-format = "sha1"
+hash = "1b97453452d8c4b0870fa7a1cc767d81810a6ab8"
+
+[update]
+[update.modrinth]
+mod-id = "NJGSUuLp"
+version = "SW63YTVs"

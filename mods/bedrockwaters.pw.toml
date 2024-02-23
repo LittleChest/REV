@@ -1,0 +1,13 @@
+name = "BedrockWaters"
+filename = "bedrockwaters-1.8.0+1.20.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3WAUHe3k/versions/lPlMkurP/bedrockwaters-1.8.0%2B1.20.4.jar"
+hash-format = "sha1"
+hash = "ce4b4259f3e6f682b24499dbae5d7d2d88f11ea5"
+
+[update]
+[update.modrinth]
+mod-id = "3WAUHe3k"
+version = "lPlMkurP"

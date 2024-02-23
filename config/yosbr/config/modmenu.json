@@ -1,0 +1,8 @@
+{
+  "mods_button_style": "shrink",
+  "game_menu_button_style": "replace_bugs",
+  "easter_eggs": false,
+  "modify_title_screen": true,
+  "modify_game_menu": true,
+  "update_checker": false
+}

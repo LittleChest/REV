@@ -1,0 +1,5 @@
+{
+  "main_menu": {
+    "bottom_left": [{"text":"RE:Vanilla _VERSION_","clickEvent":{"action":"open_url","value":"https://modrinth.com/modpack/revanillaw/version/_VERSION_"}}]
+  }
+}

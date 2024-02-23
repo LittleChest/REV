@@ -1,0 +1,19 @@
+{
+  "generic": {
+    "debug": false,
+    "openConfigGui": {
+      "keys": ""
+    }
+  },
+  "minecraft": {
+    "lavaRiptide": true
+  },
+  "minihud": {
+    "msptSyncProtocol": true
+  },
+  "clientcommands": {
+    "fishCommand": true,
+    "disableNotVanillaWarn": true
+  },
+  "configVersion": 1
+}

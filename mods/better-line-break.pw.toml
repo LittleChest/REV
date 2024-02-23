@@ -1,0 +1,13 @@
+name = "Better Line Break"
+filename = "BetterLineBreak-1.20.4(Fabric)-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zp6DtFf2/versions/E35mm9Sc/BetterLineBreak-1.20.4%28Fabric%29-1.1.0.jar"
+hash-format = "sha1"
+hash = "5dec210d672990fdfb941c71dc6127ac7c594bca"
+
+[update]
+[update.modrinth]
+mod-id = "zp6DtFf2"
+version = "E35mm9Sc"

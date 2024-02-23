@@ -1,0 +1,6 @@
+{
+  "main_menu": {
+    "top_left": [{"text":"WARNING: You are using a alpha build of RE:Vanilla.","color":"red"}],
+    "bottom_left": [{"text":"RE:Vanilla _VERSION_","clickEvent":{"action":"open_url","value":"https://github.com/REVanillaW/REVanilla/commit/_COMMIT_"}}]
+  }
+}

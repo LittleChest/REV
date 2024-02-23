@@ -1,0 +1,13 @@
+name = "Show My Skin Parts"
+filename = "ShowMySkinParts-1.1.2-all.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Olw2MFxS/versions/zdXOsQQH/ShowMySkinParts-1.1.2-all.jar"
+hash-format = "sha1"
+hash = "e337c5b7459acc06e5a5313e3b44bca1655caf5f"
+
+[update]
+[update.modrinth]
+mod-id = "Olw2MFxS"
+version = "zdXOsQQH"
