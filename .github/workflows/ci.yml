@@ -66,4 +66,4 @@ jobs:
         run: |
           packwiz refresh
           packwiz update --all -y | tee UPDATE_LOG
-          if [ `grep -c "All files are up to date!" UPDATE_LOG` -ne "1" ]; then echo "::warning file=pack.toml,line=6,endLine=9,title=Update Available::Some mods can be updated."; fi
+          if [ `grep -c "All files are up to date!" UPDATE_LOG` -ne "1" ]; then echo "::warning title=Update Available::Some mods can be updated."; fi
