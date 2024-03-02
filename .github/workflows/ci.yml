@@ -72,7 +72,8 @@ jobs:
           if [ `grep -c "All files are up to date!" UPDATE_LOG` -ne "1" ]; then echo "::warning title=Update Available::Some mods can be updated."; fi
 
   alpha:
-    if: ${{ jobs.beta.result == 'skipped' }}
+    needs: beta
+    if: needs.beta.result == 'skipped'
     runs-on: ubuntu-latest
 
     steps:
