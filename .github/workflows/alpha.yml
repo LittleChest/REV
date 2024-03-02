@@ -5,8 +5,74 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    if: ${{ ! startsWith(github.ref, 'refs/tags/beta') }}
+  beta:
+    if: ${{ startsWith(github.ref, 'refs/tags/beta') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Replace version
+        run: |
+          echo "VERSION=${{ github.event.commits[0].message }}" >> "$GITHUB_ENV"
+          sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" pack.toml
+          rm -f config/isxander-main-menu-credits.json
+          mv config/isxander-main-menu-credits.json.beta config/isxander-main-menu-credits.json
+          rm -f config/isxander-main-menu-credits.json.stable
+          find config -type f -exec sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" {} +
+          find config -type f -exec sed -i "s/_COMMIT_/${{ github.sha }}/g" {} +
+
+      - name: Install Packwiz
+        run: |
+          curl -L https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip -o /tmp/packwiz.zip
+          sudo unzip -d /bin /tmp/packwiz.zip
+          sudo chmod +x /bin/packwiz
+
+      - name: Export Modrinth modpack
+        run: packwiz modrinth export
+
+      # - name: Export CurseForge modpack
+      #   run: packwiz curseforge export
+
+      - name: Upload Modrinth modpack
+        uses: actions/upload-artifact@v4
+        with:
+          name: Modrinth
+          path: REVanilla-${{ env.VERSION }}.mrpack
+          if-no-files-found: error
+
+      - name: Upload to Modrinth
+        uses: RubixDev/modrinth-upload@v1
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          file_path: REVanilla-${{ env.VERSION }}.mrpack
+          name: ${{ env.VERSION }}
+          version: ${{ env.VERSION }}
+          changelog: |
+            _This version is created automatically by GitHub Action._
+
+            [Check the changelog.](https://github.com/REVanillaW/REVanilla/commit/${{ github.sha }})
+          game_versions: 1.20.4
+          release_type: alpha
+          loaders: fabric
+          featured: false
+          project_id: 5DviQmhn
+
+      # - name: Upload CurseForge modpack
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: CurseForge
+      #     path: REVanilla-*.zip
+      #     if-no-files-found: error
+
+      - name: Update mods
+        run: |
+          packwiz refresh
+          packwiz update --all -y | tee UPDATE_LOG
+          if [ `grep -c "All files are up to date!" UPDATE_LOG` -ne "1" ]; then echo "::warning title=Update Available::Some mods can be updated."; fi
+
+  alpha:
+    if: ${{ jobs.beta.result == 'skipped' }}
     runs-on: ubuntu-latest
 
     steps:
