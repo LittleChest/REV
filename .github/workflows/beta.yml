@@ -6,6 +6,7 @@ on:
 
 jobs:
   build:
+    if: ${{ startsWith(github.ref, 'refs/tags/beta') }}
     runs-on: ubuntu-latest
 
     steps:
@@ -13,8 +14,10 @@ jobs:
 
       - name: Replace version
         run: |
-          echo "VERSION=$(git rev-parse --short "$GITHUB_SHA")" >> "$GITHUB_ENV"
+          echo "VERSION=${{ github.event.commits[0].message }}" >> "$GITHUB_ENV"
           sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" pack.toml
+          rm -f config/isxander-main-menu-credits.json
+          mv config/isxander-main-menu-credits.json.beta config/isxander-main-menu-credits.json
           rm -f config/isxander-main-menu-credits.json.stable
           find config -type f -exec sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" {} +
           find config -type f -exec sed -i "s/_COMMIT_/${{ github.sha }}/g" {} +
@@ -48,7 +51,7 @@ jobs:
           changelog: |
             _This version is created automatically by GitHub Action._
 
-            [`${{ env.VERSION }}`](https://github.com/REVanillaW/REVanilla/commit/${{ github.sha }}) ${{ github.event.commits[0].message }}
+            [Check the changelog.](https://github.com/REVanillaW/REVanilla/commit/${{ github.sha }})
           game_versions: 1.20.4
           release_type: alpha
           loaders: fabric
