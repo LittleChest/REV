@@ -15,12 +15,11 @@ jobs:
       - name: Replace version
         run: |
           echo "VERSION=$(echo ${{ github.event.commits[0].message }} | cut -d "/" -f2)" >> "$GITHUB_ENV"
-          sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" pack.toml
+          sed -i "s/_VERSION_/$(echo ${{ github.event.commits[0].message }} | cut -d "/" -f2)/g" pack.toml
           rm -f config/isxander-main-menu-credits.json
           mv config/isxander-main-menu-credits.json.beta config/isxander-main-menu-credits.json
           rm -f config/isxander-main-menu-credits.json.stable
-          find config -type f -exec sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" {} +
-          find config -type f -exec sed -i "s/_COMMIT_/${{ github.sha }}/g" {} +
+          find config -type f -exec sed -i "s/_VERSION_/$(echo ${{ github.event.commits[0].message }} | cut -d "/" -f2)/g" {} +
 
       - name: Install Packwiz
         run: |
