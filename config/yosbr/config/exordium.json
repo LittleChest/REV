@@ -1,12 +1,31 @@
 {
   "configVersion": 3,
+  "targetFPSNameTags": 30,
   "chatSettings": {
-    "enabled": true,
     "maxFps": 60,
     "forceUpdates": true
   },
   "debugScreenSettings": {
-    "enabled": true,
+    "enabled": false,
     "maxFps": 60
+  },
+  "hotbarSettings": {
+    "maxFps": 30
+  },
+  "experienceSettings": {
+    "maxFps": 20
+  },
+  "scoreboardSettings": {
+    "maxFps": 30
+  },
+  "tablistSettings": {
+    "enabled": false,
+    "maxFps": 20
+  },
+  "vignetteSettings": {
+    "maxFps": 10
+  },
+  "crosshairSettings": {
+    "enabled": false
   }
 }
