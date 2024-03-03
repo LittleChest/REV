@@ -50,9 +50,9 @@ jobs:
           changelog: |
             _This version is created automatically by GitHub Action._
 
-            [Check the changelog.](https://github.com/REVanillaW/REVanilla/commit/${{ github.sha }})
+            [Check the changelog.](https://github.com/REVanillaW/REVanilla/commit/)
           game_versions: 1.20.4
-          release_type: alpha
+          release_type: beta
           loaders: fabric
           featured: false
           project_id: 5DviQmhn
