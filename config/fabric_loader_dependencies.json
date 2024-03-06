@@ -1,1 +1,1 @@
-{"version":1,"overrides":{"restorechatlinks":{"-depends":{"minecraft":"IGNORED"}},"exit_confirm":{"-depends":{"minecraft":"IGNORED"}},"fiveonefouroneeight":{"-depends":{"minecraft":"IGNORED"}},"log_more_info":{"-depends":{"minecraft":"IGNORED"}}}}
+{"version":1,"overrides":{"exit_confirm":{"-depends":{"minecraft":"IGNORED"}},"fiveonefouroneeight":{"-depends":{"minecraft":"IGNORED"}},"log_more_info":{"-depends":{"minecraft":"IGNORED"}}}}

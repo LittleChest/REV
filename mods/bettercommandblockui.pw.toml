@@ -3,11 +3,11 @@ filename = "bettercommandblockui-0.5.0-1.20.3.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/8iQcgjQ2/versions/PRUNtRh4/bettercommandblockui-0.5.0-1.20.3.jar"
+url = "https://cdn.modrinth.com/data/8iQcgjQ2/versions/fy8jY8ey/bettercommandblockui-0.5.0-1.20.3.jar"
 hash-format = "sha1"
-hash = "0d4967d16fd7220ac0c3b23116b9387af63e287a"
+hash = "9a912f34117345835b9b47318adb15f381004fb4"
 
 [update]
 [update.modrinth]
 mod-id = "8iQcgjQ2"
-version = "PRUNtRh4"
+version = "fy8jY8ey"
