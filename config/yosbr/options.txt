@@ -3,13 +3,12 @@ key_key.midnightcontrols.ring:key.keyboard.unknown
 key_key.midnightcontrols.look_right:key.keyboard.keypad.6
 key_key.midnightcontrols.look_left:key.keyboard.keypad.4
 key_key.midnightcontrols.look_down:key.keyboard.keypad.2
-key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
-key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.midnightcontrols.look_up:key.keyboard.keypad.8
 resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","minecraft:supporteatinganimation_resourcepacks/supporteatinganimation"]
 key_key.brb.pin:key.keyboard.unknown
 key_bedrodium.toggle:key.keyboard.unknown
 key_key.bcbui.areaselectioninput:key.keyboard.unknown
+key_config.chatimage.key:key.keyboard.unknown
 key_Toggle:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_fpsreducer.key.openGui:key.keyboard.unknown
