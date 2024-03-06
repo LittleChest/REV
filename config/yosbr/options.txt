@@ -20,7 +20,6 @@ key_key.scoreboard-helper.switchDisplay:key.keyboard.unknown
 key_key.scoreboard-helper.openConfig:key.keyboard.unknown
 key_key.scoreboard-helper.exportScoreboard:key.keyboard.unknown
 key_key.scoreboard-helper.editScore:key.keyboard.unknown
-key_seamless_loading_screen.keybind.config:key.keyboard.unknown
 key_keybinding.skinpr.refreshManually:key.keyboard.unknown
 key_key.spyglass-improvements.use:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
