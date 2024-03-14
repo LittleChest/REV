@@ -1,13 +1,13 @@
 name = "ChatImage"
-filename = "ChatImage-1.2.2+1.20.4+fabric.jar"
+filename = "ChatImage-1.2.3+1.20.4+fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/zhVN1dvW/versions/1M7hfeuO/ChatImage-1.2.2%2B1.20.4%2Bfabric.jar"
+url = "https://cdn.modrinth.com/data/zhVN1dvW/versions/SbY9YOsn/ChatImage-1.2.3%2B1.20.4%2Bfabric.jar"
 hash-format = "sha1"
-hash = "a31b3bfea39930c0453ea9ce2fbd74460335767d"
+hash = "d0845b4597ee266e778e01dd4cc84edda2169d02"
 
 [update]
 [update.modrinth]
 mod-id = "zhVN1dvW"
-version = "1M7hfeuO"
+version = "SbY9YOsn"
