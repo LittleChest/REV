@@ -1,1 +1,658 @@
 hash-format = "sha256"
+
+[[files]]
+file = "config/bcc.json"
+
+[[files]]
+file = "config/customcredits/credits.json"
+
+[[files]]
+file = "config/fabric_loader_dependencies.json"
+
+[[files]]
+file = "config/isxander-main-menu-credits.json"
+
+[[files]]
+file = "config/isxander-main-menu-credits.json.beta"
+
+[[files]]
+file = "config/isxander-main-menu-credits.json.stable"
+
+[[files]]
+file = "config/yosbr/config/BetterHandBobbing.json"
+
+[[files]]
+file = "config/yosbr/config/FoodEffectTooltips.json5"
+
+[[files]]
+file = "config/yosbr/config/NoChatReports/NCR-Client.json"
+
+[[files]]
+file = "config/yosbr/config/SkinPartsRefresher.json"
+
+[[files]]
+file = "config/yosbr/config/advanced-ui-scale.json"
+
+[[files]]
+file = "config/yosbr/config/bcc.json"
+
+[[files]]
+file = "config/yosbr/config/bedrockwaters.json"
+
+[[files]]
+file = "config/yosbr/config/better_line_break.json"
+
+[[files]]
+file = "config/yosbr/config/betterstats.json"
+
+[[files]]
+file = "config/yosbr/config/bladeren.json"
+
+[[files]]
+file = "config/yosbr/config/brb.toml"
+
+[[files]]
+file = "config/yosbr/config/capes.json5"
+
+[[files]]
+file = "config/yosbr/config/collective.json5"
+
+[[files]]
+file = "config/yosbr/config/debugify.json"
+
+[[files]]
+file = "config/yosbr/config/dynamic_fps.json"
+
+[[files]]
+file = "config/yosbr/config/entity_texture_features.json"
+
+[[files]]
+file = "config/yosbr/config/exordium.json"
+
+[[files]]
+file = "config/yosbr/config/fabric_loader_dependencies.json"
+
+[[files]]
+file = "config/yosbr/config/ingameime.json"
+
+[[files]]
+file = "config/yosbr/config/iris.properties"
+
+[[files]]
+file = "config/yosbr/config/isxander-main-menu-credits.json"
+
+[[files]]
+file = "config/yosbr/config/magiclib.json"
+
+[[files]]
+file = "config/yosbr/config/malilib.json"
+
+[[files]]
+file = "config/yosbr/config/midnightlib.json"
+
+[[files]]
+file = "config/yosbr/config/modernfix-mixins.properties"
+
+[[files]]
+file = "config/yosbr/config/modmenu.json"
+
+[[files]]
+file = "config/yosbr/config/puzzle.json"
+
+[[files]]
+file = "config/yosbr/config/spyglass-improvements/settings.json"
+
+[[files]]
+file = "config/yosbr/config/viafabricplus/settings.json"
+
+[[files]]
+file = "config/yosbr/options.txt"
+
+[[files]]
+file = "mods/BetterF3.jar"
+
+[[files]]
+file = "mods/Bladeren.jar"
+
+[[files]]
+file = "mods/REBranded.jar"
+
+[[files]]
+file = "mods/advancement-plaques.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/advancementinfo.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/animatica.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/async-pack-scan.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/auto-sprint-fix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bedrockwaters.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bedrodium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-beds.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-f1-reborn.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-hand-bobbing.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-line-break.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-mount-hud.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-pie-chart.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-ping-display-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-selection.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-stats.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-suggestions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-taskbar.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/betterbarriers.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bettercommandblockui.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/biome-tinted-flowers.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/borderless-mining.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/brb.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cake-chomps.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/capes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chatanimation.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chatimage.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cherished-worlds.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/clear-void.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/client-commands.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/clientsidenoteblocks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/colorful-subtitles.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/craterlib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cursorcentered-fix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/custom-credits.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/customskinloader.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/damagevignette.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/darktitlebar.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/draggable-lists.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-app-icon.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/eating-animation.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/exit-confirmation.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/exordium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/f3-t-everywhere.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabricskyboxes-interop.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabricskyboxes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastopenlinksandfolders.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastquit.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fiveonefouroneeight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/foodeffecttooltips.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/forge-early-loading-screen-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fps-reducer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/give-me-a-new-splash-text.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/held-item-info.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hold-that-chunk.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/iceberg.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/imblocker-original.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/in-game-account-switcher.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/language-reload.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/level-text-fix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/libjf.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/log_more_info.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/macos-input-fixes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/magiclib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/main-menu-credits.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/midnightcontrols.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/midnightlib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mixintrace.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moddetectionpreventer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/modelfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/nbt-autocomplete.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/notenoughcrashes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/noxesium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/nvidium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/optigui.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/puzzle.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/railoptimization.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/remember-my-txt.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/resourcify.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/respectproxyoptions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/scoreboard-helper.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/server-resource-pack-checker.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/serveraddressspacefix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/show-my-skin-parts.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/smooth-scrolling-refurbished.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/smoothmenu-refabricated.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium-shadowy-path-blocks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/spyglass-improvements.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/stackdeobf.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/suggestion-tweaker.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/threadtweak.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tiny-item-animations.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/universal-shortcuts.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/viafabricplus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/viavanillaplus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/translations-for-sodium.pw.toml"
+metafile = true

@@ -3,6 +3,13 @@ author = "LittleChest"
 version = "_VERSION_"
 pack-format = "packwiz:1.1.0"
 
+[index]
+file = "index.toml"
+hash-format = "sha256"
+
 [versions]
 fabric = "0.15.7"
 minecraft = "1.20.4"
+
+[options]
+no-internal-hashes = true

@@ -1,0 +1,66 @@
+name: CI
+on:
+  push:
+    branches: main
+  workflow_dispatch:
+
+jobs:
+  beta:
+    if: ${{ startsWith(github.event.commits[0].message, 'Beta/') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Replace version
+        run: |
+          echo "VERSION=$(echo ${{ github.event.commits[0].message }} | cut -d "/" -f2)" >> "$GITHUB_ENV"
+          sed -i "s/_VERSION_/$(echo ${{ github.event.commits[0].message }} | cut -d "/" -f2)/g" pack.toml
+          rm -f config/isxander-main-menu-credits.json
+          mv config/isxander-main-menu-credits.json.beta config/isxander-main-menu-credits.json
+          rm -f config/isxander-main-menu-credits.json.stable
+          find config -type f -exec sed -i "s/_VERSION_/$(echo ${{ github.event.commits[0].message }} | cut -d "/" -f2)/g" {} +
+
+      - name: Install Packwiz
+        run: |
+          curl -L https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip -o /tmp/packwiz.zip
+          sudo unzip -d /bin /tmp/packwiz.zip
+          sudo chmod +x /bin/packwiz
+          packwiz refresh --build
+
+      - name: Export Modrinth modpack
+        run: packwiz modrinth export
+
+      # - name: Export CurseForge modpack
+      #   run: packwiz curseforge export
+
+      - name: Upload Modrinth modpack
+        uses: actions/upload-artifact@v4
+        with:
+          name: Modrinth
+          path: REVanilla-${{ env.VERSION }}.mrpack
+          if-no-files-found: error
+
+      - name: Upload to Modrinth
+        uses: RubixDev/modrinth-upload@v1
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          file_path: REVanilla-${{ env.VERSION }}.mrpack
+          name: ${{ env.VERSION }}
+          version: ${{ env.VERSION }}
+          changelog: |
+            _This version is created automatically by GitHub Action._
+
+            [Check the changelog.](https://github.com/REVanillaW/REVanilla/commit/)
+          game_versions: 1.20.4
+          release_type: beta
+          loaders: fabric
+          featured: false
+          project_id: 5DviQmhn
+
+      # - name: Upload CurseForge modpack
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: CurseForge
+      #     path: REVanilla-*.zip
+      #     if-no-files-found: error
