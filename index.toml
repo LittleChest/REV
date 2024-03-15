@@ -478,6 +478,10 @@ file = "mods/malilib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mcwifipnp.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 metafile = true
 
