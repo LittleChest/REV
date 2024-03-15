@@ -434,10 +434,6 @@ file = "mods/in-game-account-switcher.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/indium.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 metafile = true
 
@@ -603,10 +599,6 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-shadowy-path-blocks.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/sodium.pw.toml"
 metafile = true
 
 [[files]]
