@@ -15,6 +15,9 @@
   "experienceSettings": {
     "maxFps": 20
   },
+  "healthSettings": {
+    "enabled": false
+  },
   "scoreboardSettings": {
     "maxFps": 30
   },
