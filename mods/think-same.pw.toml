@@ -1,0 +1,13 @@
+name = "Think same"
+filename = "thinksame-1.1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/boAEFRFH/versions/LWXJcB32/thinksame-1.1.1.jar"
+hash-format = "sha1"
+hash = "ccc825a8a730c0b7ce0beab85b09c3f26de28498"
+
+[update]
+[update.modrinth]
+mod-id = "boAEFRFH"
+version = "LWXJcB32"
