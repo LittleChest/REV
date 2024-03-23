@@ -1,0 +1,1 @@
+{"version":1,"overrides":{"fabricloader":{"+depends":{"fabricloader":">=0.15.7"}},"minecraft":{"+recommends":{"RE:Vanilla":">20.4.0.0"}}}}
