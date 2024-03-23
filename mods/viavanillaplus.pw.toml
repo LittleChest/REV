@@ -1,13 +1,13 @@
 name = "ViaVanillaPlus"
-filename = "viavanillaplus-1.2.0.jar"
+filename = "viavanillaplus-1.2.1+mc1.20.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/OrMOpGTu/versions/yX6g4D8V/viavanillaplus-1.2.0.jar"
+url = "https://cdn.modrinth.com/data/OrMOpGTu/versions/ATZTXYZG/viavanillaplus-1.2.1%2Bmc1.20.4.jar"
 hash-format = "sha1"
-hash = "34d0147f42c672a59d71ddcedcfbbffd9fa7b4e5"
+hash = "6493e2e2502b290968e997954f6a9363e1ce53aa"
 
 [update]
 [update.modrinth]
 mod-id = "OrMOpGTu"
-version = "yX6g4D8V"
+version = "ATZTXYZG"
