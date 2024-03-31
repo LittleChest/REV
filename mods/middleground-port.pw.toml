@@ -1,0 +1,13 @@
+name = "Middleground Fabric 1.19+ Port"
+filename = "middleground-1.20.4-1.0.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iY4NbBcW/versions/R1sDDRjV/middleground-1.20.4-1.0.4.jar"
+hash-format = "sha1"
+hash = "d38284a9a0397a15cf476996805e12e64eb3e780"
+
+[update]
+[update.modrinth]
+mod-id = "iY4NbBcW"
+version = "R1sDDRjV"

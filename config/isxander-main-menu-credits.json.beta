@@ -1,6 +1,6 @@
 {
   "main_menu": {
     "top_left": [{"text":"WARNING: You are using a beta build of RE:Vanilla.","color":"yellow"}],
-    "bottom_left": [{"text":"RE:Vanilla _VERSION_","clickEvent":{"action":"open_url","value":"https://modrinth.com/modpack/revanillaw/version/_VERSION_"}}]
+    "bottom_left": [{"text":"RE:Vanilla 0a1b3c4","clickEvent":{"action":"open_url","value":"https://modrinth.com/modpack/revanillaw/version/0a1b3c4"}}]
   }
 }

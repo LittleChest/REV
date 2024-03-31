@@ -1,6 +1,6 @@
 name = "REVanilla"
 author = "LittleChest"
-version = "_VERSION_"
+version = "0a1b3c4"
 pack-format = "packwiz:1.1.0"
 
 [index]
